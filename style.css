@@ -1,15 +1,12 @@
 /*
-Theme Name: UnderStrap
-Theme URI: https://understrap.com
-Author: the Understrap Authors
-Author URI: https://github.com/understrap/understrap/graphs/contributors
+Theme Name: Stonewall - Parent
+Theme URI: https://stonewallgroup.com
+Author: Eric Griffiths - Stonewall Group
+Author URI: https://stonewallgroup.com
 GitHub Theme URI: https://github.com/understrap/understrap
-Description: Combination of Automattic´s _s theme and Bootstrap 4. Made as a solid starting point for your next theme project and WordPress website. Use it as starter theme or as a parent theme. It is up to you. Including Font Awesome support, built-in widget slider and much more you need for basic websites. IMPORTANT: All developer dependencies are not bundled with this install file. Just download the .zip, extract it and run "npm install" and "gulp copy-assets" inside the extracted /understrap folder.
-That downloads everything and moves it in place so that you can recompile your CSS and JS files;
-A developer version (with Gulp/node and Sass sources) is available on gitHub: https://github.com/understrap/understrap
-A child theme is available on Github, too: https://github.com/understrap/understrap-child;
-Version: 0.9.6
-Tested up to: 5.7.2
+Description: A custom theme for Stonewall clients using Combination of Automattic´s _s theme and Bootstrap 4.
+Version: 2.0
+Tested up to: 5.8
 Requires PHP: 5.2
 License: UnderStrap WordPress Theme, Copyright 2013-2021 Howard Development &amp; Consulting
 UnderStrap is distributed under the terms of the GNU GPL version 2
@@ -28,11 +25,3 @@ jQuery: https://jquery.org | (Code licensed under MIT)
 WP Bootstrap Navwalker by Edward McIntyre: https://github.com/twittem/wp-bootstrap-navwalker | GNU GPL
 */
 
-/*
-This file is just used to identify the theme in WordPress.
-The compiled CSS output can be found in /css/theme.css
-The SASS sources for it can be found in /sass/
-The dependencies can be found in /src/ after running "gulp copy-assets" terminal command
-
-...and now go out and play!
-*/
