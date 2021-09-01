@@ -183,7 +183,7 @@ function showAdminMessages() {
 ####################################################################################
 
 ####################################################################################
-//Edit link for modules for use in templates
+//Edit links for modules for use in templates
 
 if (!function_exists('swg_edit')) {
 	function swg_edit($text, $url) {
@@ -192,6 +192,36 @@ if (!function_exists('swg_edit')) {
 		}
 		return false;
 	}
+}
+
+####################################################################################
+
+####################################################################################
+//Remove Custom fields from menu
+
+//add_filter('acf/settings/show_admin', '__return_false');
+
+####################################################################################
+
+####################################################################################
+// ACF Options Page
+
+if( function_exists('acf_add_options_page') ) {
+
+	acf_add_options_page(array(
+		'page_title' 	=> 'Theme General Settings',
+		'menu_title'	=> 'Theme Settings',
+		'menu_slug' 	=> 'theme-general-settings',
+		'capability'	=> 'edit_posts',
+		'redirect'		=> false
+	));
+
+//	acf_add_options_sub_page(array(
+//		'page_title' 	=> 'Theme Modules',
+//		'menu_title'	=> 'Theme Modules',
+//		'parent_slug'	=> 'theme-general-settings',
+//	));
+
 }
 
 ####################################################################################

@@ -1,6 +1,6 @@
 {
 	"browserSyncOptions": {
-		"proxy": "localhost/",
+		"proxy": "http://dev.stonewalltheme.build/",
 		"notify": false,
 		"files": ["./css/*.min.css", "./js/*.min.js", "./**/*.php"]
 	},
