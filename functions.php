@@ -225,3 +225,15 @@ if( function_exists('acf_add_options_page') ) {
 }
 
 ####################################################################################
+
+####################################################################################
+//Require for updates from github repo
+require 'plugin-update-checker/plugin-update-checker.php';
+$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
+	'https://github.com/ohiowebpro/understrap/',
+	__FILE__,
+	'stonewall'
+);
+
+
+
